@@ -47,3 +47,12 @@ The trained models are used in the Streamlit app to provide real-time emotion pr
 
 - Enhance the app with more advanced features and better user interface.
 - Continue experimenting with different architectures and hyperparameters to further improve model performance.
+## Files Included
+
+1. **`app.py`**: Streamlit application script for running the web interface that predicts emotions based on user input.
+2. **`Emotion_Detection.ipynb`**: Jupyter Notebook containing code for data preprocessing, model training, and evaluation. Includes comparisons of various classifiers.
+3. **`labelencoder.pkl`**: Pickle file with the LabelEncoder object used for encoding and decoding emotion labels.
+4. **`lstm_model.h5`**: Saved LSTM model file used for emotion prediction.
+5. **`tokenizer.pkl`**: Pickle file with the Tokenizer object used for text tokenization.
+6. **`train.txt`**: Training data file containing text samples and corresponding labels.
+7. **`vocab_info.pkl`**: Pickle file with vocabulary information used in the training process.
